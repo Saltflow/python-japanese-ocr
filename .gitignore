@@ -3,3 +3,10 @@ data/
 TODO
 ocr.sh
 results.txt
+examples/sample_page.jpg
+examples/sample_title.jpg
+pictures/sample_page.jpg
+pictures/sample_title.jpg
+__pycache__/splitandocr.cpython-36.pyc
+examples/sample_page.jpg
+examples/sample_title.jpg
