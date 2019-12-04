@@ -22,7 +22,8 @@ for file in files:
             if(line.find('。') != -1):
                 article.append(sentence)
                 sentence = ""
-
-    with open(os.path.join(dirname,"results.txt"),"a") as f:
+    pre_name = os.path.splitext(os.path.basename(file))[0]
+    os.remove("results.txt")
+    with open(os.path.join(dirname,pre_name+".txt"),"w") as f:
         for sentence in article:
             f.write(sentence+"\n")

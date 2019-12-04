@@ -249,4 +249,5 @@ if __name__ == "__main__":
                 for (i, txt) in sorted_text:
                     txt = txt.replace("\x0c", "")
                     f.write("{}".format(txt))
+        remove_dir(dirname)
         print("OCR done")
