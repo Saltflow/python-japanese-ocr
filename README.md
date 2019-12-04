@@ -16,18 +16,31 @@
 ### Archlinux
 
 ```
+
 pacman -S opencv tesseract-ocr-git tesseract-data-jpn
 ```
 
 ## How to use
 
+The code should susuccessfully run on Linux.Currently I am using WSL Ubuntu 18.04.
+Put every pictures in `picutures`, then run
 ```
-./main.py examples/sample_page.jpg
-```
-
-Followed by:
-
-```
-./main.py examples/sample_page.jpg --ocr
+python main.py
 ```
 
+Then you should get every pages in `allresult`
+
+## How to setup
+
+```
+
+sudo apt install tesseract-ocr
+
+pip3 install scipy
+
+pip3 install opencv-python
+
+ sudo apt-get install language-pack-ja language-pack-gnome-ja language-pack-ja-base language-pack-gnome-ja-base
+
+ ```
+notice that the path for tessdata is now `/usr/share/tessdata`
