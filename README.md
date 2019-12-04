@@ -43,4 +43,4 @@ pip3 install opencv-python
  sudo apt-get install language-pack-ja language-pack-gnome-ja language-pack-ja-base language-pack-gnome-ja-base
 
  ```
-notice that the path for tessdata is now `/usr/share/tessdata`
+notice that the path for tessdata is now `/usr/share/tesseract-ocr/tessdata`
