@@ -13,3 +13,4 @@ examples/sample_title.jpg
 *.txt
 *.jpg
 __pycache__/splitandocr.cpython-37.pyc
+.*.swp

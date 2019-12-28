@@ -20,6 +20,13 @@
 pacman -S opencv tesseract-ocr-git tesseract-data-jpn
 ```
 
+### Ubuntu / Mint
+
+```
+sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn-vert
+sudo apt-get install -y python3-opencv
+```
+
 ## How to use
 
 The code should susuccessfully run on Linux.Currently I am using WSL Ubuntu 18.04.

@@ -27,3 +27,4 @@ for file in files:
     with open(os.path.join(dirname,pre_name+".txt"),"w") as f:
         for sentence in article:
             f.write(sentence+"\n")
+
