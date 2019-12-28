@@ -10,3 +10,6 @@ pictures/sample_title.jpg
 __pycache__/splitandocr.cpython-36.pyc
 examples/sample_page.jpg
 examples/sample_title.jpg
+*.txt
+*.jpg
+__pycache__/splitandocr.cpython-37.pyc

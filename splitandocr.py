@@ -149,7 +149,7 @@ def find_text(section, verbose=False, section_idx=None, dirname="results"):
     text = []
     for i, ctr in enumerate(ctrs):
         x, y, w, h = cv2.boundingRect(ctr)
-        if w <= 30:
+        if w <= 15:
             continue
         text.append(ctr)
 
